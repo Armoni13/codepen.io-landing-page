@@ -1,0 +1,44 @@
+
+.btn{
+    background-color: #434756;
+    color: white;
+    font-size:1.25em;
+    padding: 10px 15px;
+    border-radius: 2px;
+    outline: none;
+    border: 1px solid #434756;
+}
+
+.sign-up-for-free-and-learn-more-buttons > .sign-up-for-free-and-learn-more-buttons-wrapper {
+    display: flex;
+    flex-direction: row;
+    /* font-size: 1.25em; */
+    /* padding: 0px; */
+    /* border: 1px solid #434756; */
+    /* justify-content: center; */
+    
+    margin: 50px; 
+    justify-content: space-between;
+    width: 320px;
+}
+
+
+
+.Sign-up-for-free-button > .btn {
+    background-color: #58ce79;
+    color: black; 
+    
+}
+
+.learn-more-button > .btn {
+    background-color: black;
+    color: white;
+}
+
+
+/* 
+I was using this to manipulate the size of the screenshot. It didnt work the way I wanted it to. 
+img {
+    width:100%;
+    height: auto;
+} */

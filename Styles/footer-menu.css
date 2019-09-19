@@ -1,0 +1,56 @@
+
+
+.footer-menu > .links-wrapper{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 25px;
+   
+}
+
+.footer-menu{
+    background-color: #36383f;
+    color: #676767;
+    border-style: solid;
+    border-width: 2px;
+    
+    height: 70px;  
+   
+}
+
+.footer-menu > .links-wrapper > .nav-link a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-menu > .links-wrapper > .nav-link{
+    display: flex;
+    justify-content:space-around;
+}
+
+.vertical-column{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    margin-top: -25px;
+    width:2px;
+    background-color:#676767;
+
+    height: 70px;
+    /* top and bottom dont appear to be doing anything
+    top:0;
+    bottom:0;
+    */
+     /* left: does not appear to be doing anything
+     left:150px
+     */
+}
+
+.below-footer-menu-border{
+    display: flex;
+    background-color: #181a1d;
+    margin: 0px;
+    /* height: 100vh; */
+    height: 70px;
+
+    
+}

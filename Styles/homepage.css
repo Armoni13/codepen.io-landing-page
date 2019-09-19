@@ -1,0 +1,118 @@
+body{
+    
+    margin: 0px;
+    height: 60%;
+    font-family: 'lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+}
+
+body{
+    padding:0;
+    margin:0;
+}
+
+h1, h2, h3, h4, h5, h6{
+font-family: 'lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+}
+
+.navigation-wrapper {
+    height: 45px;
+    background-color: black;
+    /*Flexox container*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:35px 100px;
+}
+
+/*Left column styles*/
+
+.navigation-wrapper > .left-column{
+    display:flex;
+    align-items: center;
+    
+}
+
+.navigation-wrapper > .left-column {
+    margin-left: -100px;
+}
+
+.navigation-wrapper > .left-column > img{
+    width: 275px;
+    height: 100%;
+
+}
+/* Center column */
+.navigation-wrapper > .center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    width: 400px;
+    /* margin-left: -250px; */
+}
+
+
+.navigation-wrapper > .center-column > .explore-yellow-link > .link-wrapper > .nav-link a{
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* .links-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+} */
+
+.links-wrapper > .nav-link{
+    /* width: 70px; */
+    text-align: center;
+}
+
+.explore-yellow-link > .link-wrapper > .nav-link a{
+    color: #F8DD40;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+ .navigation-wrapper > .center-column > .links-wrapper{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 42px;
+    width: 350px;
+} 
+
+.navigation-wrapper > .center-column > .links-wrapper {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    /* margin-right: 200px; */
+}
+
+.navigation-wrapper > .center-column > .links-wrapper > .nav-link a{
+    text-decoration: none;
+    color: #fbfbfb;
+    font-weight: bold;
+    font-size: 1rem;
+    
+}
+/* Right column */
+
+.navigation-wrapper > .right-column > .links-wrapper-right-column{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 400px;
+}
+.navigation-wrapper > .right-column{
+    align-items: center;
+    margin-right: -85px; 
+}
+.navigation-wrapper > .right-column > .links-wrapper-right-column{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 350px;
+    margin-top: 50px; */
+    
+}
+
+

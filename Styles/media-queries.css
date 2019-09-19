@@ -1,0 +1,76 @@
+@media (max-width:615px){
+    .navigation-wrapper{
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .navigation-wrapper > .left-column {
+        order: -2;
+        margin-top:10px;
+        margin-bottom: 15px;
+    }
+
+    .navigation-wrapper > .center-column > .links-wrapper{
+        order: 1;
+        width: 100%;
+    }
+    
+    .right-column > .links-wrapper-right-column{
+        flex-direction: column;
+        order: 3;
+        margin-right: 50px;
+        margin-top: 25px;
+        
+    }
+
+    /* .navigation-wrapper > .center-column > .explore-yellow-link > .link-wrapper{
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 20px;
+    } */
+
+    .links-wrapper{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .navigation-wrapper > .center-column > .explore-yellow-link {
+        margin-left: 165px;
+    }
+
+    /* .navigation-wrapper > .center-column > .explore-yellow-link > .link-wrapper > .nav-link {
+       margin-top: 10px;
+       margin-bottom: 10px;
+       font-size: 1.5em;
+       width: 100%;
+    } */
+
+    .links-wrapper > .nav-link {
+       margin-top: 10px;
+       margin-bottom: 10px;
+       font-size: 1.5em;
+       width: 100%;
+    }
+
+    .introduction-to-codepen {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .sign-up-for-free-and-learn-more-buttons > .sign-up-for-free-and-learn-more-buttons-wrapper {
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+
+    .Screenshot-and-description > .Screenshot-and-description-wrapper > .codepen-screenshot-description {
+        flex-direction: column;
+        height: 100%;
+       justify-items: center;
+    }
+
+    
+
+
+
+}

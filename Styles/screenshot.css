@@ -1,0 +1,58 @@
+.introduction-to-codepen{
+    background-color: #444857;
+    margin-top: -1px;
+    display: flex;
+    /*
+    align-items: center;
+    */
+}
+
+.codepen-screenshot-description {
+    display: flex;
+    margin-right: 400px;
+    font-family: 'lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+}
+
+.codepen-screenshot{
+   display: flex; 
+   background-repeat: no-repeat;
+   justify-content:flex-end;
+}
+
+.introduction-to-codepen > .paragraph-wrapper > .introduction-paragraph-wrapper-one{
+    color: #c7c9d3;  
+    font-size: 1.5em;
+    margin: 55px;
+    font-family: 'lato', 'Lucida Grande';
+}
+
+.introduction-to-codepen > .paragraph-wrapper > .introduction-paragraph-wrapper-two{
+    color: #c7c9d3;  
+    font-size: 1.4em;
+    margin: 55px;
+    font-family: 'lato', 'Lucida Grande';
+}
+
+
+span {
+    color:#6bc6e9;
+} 
+
+.yellow-hand{
+    color: #f6cf5d;
+}
+
+.magnifying-glass{
+    color: #7b7e8b;
+}
+.spark-arrow{
+  color: #b6b6b6;  
+}
+
+.gray-colored-spark{
+    color: #b6b6b6;
+}
+
+.green-arrow-create-button{
+   color: #58ce79;
+}
