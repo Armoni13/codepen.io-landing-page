@@ -67,10 +67,24 @@
         flex-direction: column;
         height: 100%;
        justify-items: center;
+       
+    } 
+
+    .sign-up-for-free-and-learn-more-buttons-wrapper > .Sign-up-for-free-button{
+        margin-left:125px;
     }
 
-    
 
+   .sign-up-for-free-and-learn-more-buttons-wrapper > .learn-more-button{
+        margin-top: 25px;
+        margin-left: 125px;
+    } 
+
+    .Screenshot-and-description-wrapper > .codepen-screenshot-description{
+        
+       
+        margin-left: 175px;
+    }
 
 
 }
